@@ -33,7 +33,7 @@ function calculateGrowth(e) {
         const initial = parseInt(initialamount.value);
         const period = parseInt(years.value);
         const interest = parseInt(bunga.value);
-        const comp = parseInt(saldo.value);
+        const comp = parseInt(compound.value);
 
         for(let i = 1; i <= period; i++) {
             const final = initial * Math.pow(1 + ((interest / 100) / comp), comp * i);
