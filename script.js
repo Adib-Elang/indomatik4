@@ -57,7 +57,7 @@ function drawGraph() {
         data: {
             labels,
             datasets: [{
-                label: "compound",
+                label: "Saldo",
                 data,
                 fill: true,
                 backgroundColor: "rgba(12, 141, 0, 0.7)",
