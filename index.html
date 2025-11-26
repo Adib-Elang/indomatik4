@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Investasi</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+</head>
+<body>
+    <section class="container">
+        <div class="calculator">
+        <div class="heading">
+            <h3>Kalkulator Investasi</h3>
+            <small>Kelompok 4 X-3 : </small>
+            <a class="Link" target="_blank" href="https://github.com/Adib-Elang">Adib(1)</a>
+            <small>Adit(2)</small>
+            <small>Deli(18)</small>
+            <small>Kayla(27)</small>
+            <small>Vira(32)</small>
+            <small>Vivi(33)</small>
+
+        </div>
+        <form class="compound-form">
+            <div class="input-group">
+                <label for="initialamount">Jumlah Deposit (Rp)</label>
+                <input type="number" id="initialamount" />
+            </div>
+            <div class="input-group">
+                <label for="years">Jangka Waktu</label>
+                <input type="number" id="years" />
+            </div>
+            <div class="input-group">
+                <label for="bunga">Bunga (%)</label>
+                <input type="number" id="bunga" />
+            </div>
+            <div class="input-group">
+                <label for="bunga">Interval</label>
+                <select id="compound">
+                    <option value="1">Per tahun</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <button>Hitung</button>
+            </div>
+        </form>
+        <div class="results">
+            <h3 id="message"></h3>
+            <canvas id="data-set"></canvas>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
+<a class="Link" style=" position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;" target="_blank" href="https://github.com/Adib-Elang"><br>Copyright © 2025 Adib Elang</a>
