@@ -62,9 +62,10 @@
     align-items: center;
     flex-direction: column;
 }
-
-.Link:link {
+.Link {
     font-size: 13px;
+}
+.Link:link {
     color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
